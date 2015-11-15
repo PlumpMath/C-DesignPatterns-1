@@ -9,7 +9,7 @@ namespace Adapater
     public class XmlAdapterClass : IDataReader
     {
         private readonly string _xmlFilePath;
-        private XMLParser xmlParser;
+        private readonly XMLParser xmlParser;
 
         public XmlAdapterClass(string xmlFilePath)
         {
